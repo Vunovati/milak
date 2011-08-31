@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  rule: 
+
+two:
+  name: MyString
+  rule: 
+
+# == Schema Information
+#
+# Table name: views
+#
+#  id         :integer         not null, primary key
+#  name       :string(255)
+#  rule_id    :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+

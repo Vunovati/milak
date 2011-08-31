@@ -1,4 +1,8 @@
 Milak::Application.routes.draw do
+  resources :rules
+  
+  root :to => 'rules#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

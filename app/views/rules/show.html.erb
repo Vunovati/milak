@@ -1,0 +1,29 @@
+<% title "Rule" %>
+
+<p>
+  <strong>Title:</strong>
+  <%= @rule.title %>
+</p>
+
+<ol>
+<% for view in @rule.views %>
+  <li>
+    <%= view.name %>
+    <ul>
+    <% for condition in view.conditions %>
+      <li><%= condition.condition1 %></li>
+      <li><%= condition.condition2 %></li>
+      <li><%= condition.condition3 %></li>
+    <% end %>
+    </ul>
+  </li>
+<% end %>
+</ol>
+
+
+
+<p>
+  <%= link_to "Edit", edit_rule_path(@rule) %> |
+  <%= link_to "Destroy", @rule, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", rules_path %>
+</p>

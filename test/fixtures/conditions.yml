@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  condition1: MyString
+  condition2: MyString
+  condition3: MyString
+  view: 
+
+two:
+  condition1: MyString
+  condition2: MyString
+  condition3: MyString
+  view: 
+
+# == Schema Information
+#
+# Table name: conditions
+#
+#  id         :integer         not null, primary key
+#  condition1 :string(255)
+#  condition2 :string(255)
+#  condition3 :string(255)
+#  view_id    :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+

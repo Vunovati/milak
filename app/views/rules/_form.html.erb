@@ -1,0 +1,10 @@
+<%= nested_form_for @rule do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <%= f.fields_for :views %>
+  <p><%= f.link_to_add "Add view", :views %></p>
+  <p><%= f.submit "Submit" %></p>
+<% end %>

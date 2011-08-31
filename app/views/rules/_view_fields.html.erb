@@ -1,0 +1,8 @@
+<p>
+  <%= f.label :name, "View name" %><br />
+  <%= f.text_field :name %><br />
+  <%= f.link_to_remove "remove" %>
+</p>
+
+<%= f.fields_for :conditions %>
+<p><%= f.link_to_add "Add condition", :conditions %></p>

@@ -1,0 +1,16 @@
+one:
+  title: MyString
+
+two:
+  title: MyString
+
+# == Schema Information
+#
+# Table name: rules
+#
+#  id         :integer         not null, primary key
+#  title      :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+

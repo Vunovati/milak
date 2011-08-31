@@ -80,7 +80,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
-  jquery-rails
+  jquery-rails (>= 1.0.12)
   mocha
   nested_form
   nifty-generators
